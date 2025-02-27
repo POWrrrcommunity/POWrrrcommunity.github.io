@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>POWrrr Community</title>
     <style>
         body {
             background-color: darkblue;
@@ -16,12 +16,42 @@
             padding: 10px;
             font-size: 24px;
             font-weight: bold;
+            text-align: left;
+        }
+        
+        .button {
+            display: flex;
+            align-items: center;
+            padding: 12px 24px; /* Size of the button */
+            background-color: #4CAF50; /* Button color */
+            color: white; /* Text color */
+            border: red;
+            border-radius: 50px; /* Shape of the button */
+            font-size: 16px; /* Text size */
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            justify-content: center;
+            align-items: bottom;
+            position: fixed;
+            bottom: 20px
+        }
+
+        .button img {
+            width: 20px; /* Logo size */
+            height: 20px;
+            margin-right: 8px; /* Space between logo and text */
+        }
+
+        .button:hover {
+            background-color: #45a049; /* Hover color */
         }
     </style>
 </head>
 <body>
     <div class="title-bar">POWrrr</div>
     <h1>Welcome to POWrr Community</h1>
-    <p>This is a simple webpage with a title bar and a blue background.</p>
+    
+    <a onclick="window.location.href='https://discord.gg/Ngrc42xjPs';"class="button">Discord</a>
 </body>
 </html>
