@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POWrrr Community</title>
     <style>
+    	label {
+            display: flex;              /* Use flexbox to align items horizontally */
+            align-items: center;        /* Vertically center the items */
+            gap: 10px;                  /* Space between the image and the text */
+        }
     	.header {
             display: flex;              /* Use flexbox to align items in a row */
             align-items: center;        /* Vertically center the items */
@@ -54,10 +59,12 @@
     </style>
 </head>
 <body>
-	<div class="header">
-        <img src="logo.png" alt="POWrrr">
-        <div class="title-bar">POWrrr</div>
-    </div>
+	<label class="title-bar">
+        <a href="https://powrrrcommunity.github.io" target="_blank" >
+            <img src="logo.png" alt="My Image">
+        </a>
+        POWrrr
+    </label>
     <h1>Welcome to POWrr Community</h1>
     
     <a onclick="window.location.href='https://discord.gg/Ngrc42xjPs';"class="button">Discord</a>
